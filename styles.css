@@ -1,0 +1,59 @@
+
+h1 {
+    color: rgb(243, 133, 8);
+}
+
+h2 {
+    color: rgb(242, 150, 13);
+    font-size:16pt;
+}
+
+h3 {
+    color: rgb(189, 199, 198); 
+    background-color: rgb(31, 38, 41); 
+    padding: 10px; 
+    font-size:19pt;
+    text-align: center;
+}
+
+h4 {
+    font-size:14pt;
+}
+
+.footer {
+    color: rgb(189, 199, 198); 
+    background-color: rgb(31, 38, 41); 
+    padding: 20px;
+    text-align: right;
+}
+
+#main-block {
+    border: 5px sold black;
+    border-radius: 15px;
+    width: 70%;
+    margin-left: 15%;
+    height: 100vh;
+    margin-top: 0vh;
+    padding: 10px;
+    background-size: cover;
+    background-image: url("Картинка-1.jpg");
+}
+
+#left-button {
+    width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-right: 50px solid red;
+	border-bottom: 50px solid transparent;
+    display: left;
+    margin-left: 0px;
+}
+
+#right-button {
+    width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 50px solid red;
+	border-bottom: 50px solid transparent;
+    float:right
+}
